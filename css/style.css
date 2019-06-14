@@ -54,7 +54,7 @@ img {
   padding: 15px 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -82,3 +82,53 @@ img {
 .menu-nav a:hover {
   color: #122ab2;
 }
+
+/* about  */
+.intro {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 60px 10px;
+  max-width: 960px;
+}
+
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.sobre-info p {
+  color: #7c7c7c;
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+/* media iphone 5  */
+@media only screen and (max-width: 321px) {
+  .sobre-img {
+    margin: 0;
+  }
+}
+
+
