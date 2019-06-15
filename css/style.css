@@ -259,3 +259,48 @@ img {
 .price-item a:hover {
   opacity: 1;
 }
+
+/* quality  */
+.quality {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  max-width: 960px;
+}
+
+.quality-item {
+  flex: 1 1 300px;
+  margin: 30px 10px;
+}
+
+.quality-item h2 {
+  color: #7c7c7c;
+  margin-bottom: 15px;
+}
+
+.quality-item p {
+  font-style: italic;
+  color: #777;
+  font-size: 1.25em;
+}
+
+.quality-item h2::before {
+  content: '';
+  height: 20px;
+  width: 4px;
+  background: blue;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.quality-item:nth-of-type(3n+1) h2::before {
+  background-color: #ae81ff;
+}
+
+.quality-item:nth-of-type(3n+3) h2::before {
+  background-color: #66d9eb;
+}
+
+.quality-item:nth-of-type(3n+2) h2::before {
+  background-color: #f9265e;
+}
