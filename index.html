@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexblog</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- info superior  -->
+    <div class="superinfo-bg">
+      <div class="superinfo">
+        <p>Mon / Fri - 8AM - 6PM</p>
+        <a href="tel:+552199999999">+55 21 9999-9999</a>
+        <p>Av Ali Perto, 330, Botafogo - RJ</p>
+      </div>
+    </div>
+
+    <header class="menu-bg">
+      <div class="menu">
+        <div class="menu-logo">
+          <a href="#">Flexblog</a>
+        </div>
+        <nav class="menu-nav  ">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#quality">Quality</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1 class="intro">New values and properties about CSS</h1>
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-info">
+        <h1>About</h1>
+        <p>
+          A Flexbox layout consists of a flex container that holds flex items.
+          The flex container can be laid out horizontally or vertically. This is
+          referred to as the main axis.
+        </p>
+        <p>
+          Flexbox is a layout mode added in CSS3 to replace hacky float and
+          table layouts. It comes with a clever set of defaults that make it
+          easy to create complex layouts with relatively little code. It’s
+          stable, easy-to-use, and well-supported.
+        </p>
+      </div>
+      <div class="sobre-img">
+        <img src="./img/sobre1.jpg" alt="About 1" />
+      </div>
+      <div class="sobre-img">
+        <img src="./img/sobre2.jpg" alt="About 2" />
+      </div>
+    </section>
+
+    <!-- section products  -->
+    <section class="products" id="products">
+      <h1>Products</h1>
+      <div class="products-container">
+        <div class="products-item purple">
+          <h2>Purple</h2>
+          <img src="img/produtos1.jpg" alt="Product purple" />
+        </div>
+        <div class="products-item pink">
+          <h2>Pink</h2>
+          <img src="img/produtos2.jpg" alt="Product pink" />
+        </div>
+        <div class="products-item blue">
+          <h2>Blue</h2>
+          <img src="img/produtos3.jpg" alt="Product blue" />
+        </div>
+      </div>
+    </section>
+
+    <!-- price  -->
+    <section class="price" id="price">
+      <div class="price-item">
+        <h2 id="cooper">Copper</h2>
+        <span><sup>$</sup>19</span>
+        <ul>
+          <li>Ilimited plan</li>
+          <li>Resctrict Access</li>
+          <li>Restrict content</li>
+          <li>Support 24/7</li>
+        </ul>
+        <a href="#">Buy now</a>
+      </div>
+
+      <div class="price-item">
+        <h2>Silver</h2>
+        <span><sup>$</sup>39</span>
+        <ul>
+          <li>Ilimited plan</li>
+          <li>Resctrict Access</li>
+          <li>Restrict content</li>
+          <li>Support 24/7</li>
+          <li>Exclusive buy</li>
+        </ul>
+        <a href="#">Buy now</a>
+      </div>
+
+      <div class="price-item">
+        <h2 id="gold">Gold</h2>
+        <span><sup>$</sup>79</span>
+        <ul>
+          <li>Ilimited plan</li>
+          <li>Resctrict Access</li>
+          <li>Restrict content</li>
+          <li>Support 24/7</li>
+          <li>Exclusive buy</li>
+          <li>Download items</li>
+        </ul>
+        <a href="#">Buy now</a>
+      </div>
+    </section>
+
+    <!-- quality  -->
+    <section class="quality" id="quality">
+      <div class="quality-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius in
+          dolores ea, dolor officia distinctio ipsa voluptates quas.
+        </p>
+      </div>
+
+      <div class="quality-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius in
+          dolores ea, dolor officia distinctio ipsa voluptates quas.
+        </p>
+      </div>
+
+      <div class="quality-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius in
+          dolores ea, dolor officia distinctio ipsa voluptates quas.
+        </p>
+      </div>
+
+      <div class="quality-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius in
+          dolores ea, dolor officia distinctio ipsa voluptates quas.
+        </p>
+      </div>
+
+      <div class="quality-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius in
+          dolores ea, dolor officia distinctio ipsa voluptates quas.
+        </p>
+      </div>
+
+      <div class="quality-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius in
+          dolores ea, dolor officia distinctio ipsa voluptates quas.
+        </p>
+      </div>
+    </section>
+
+    <!-- newsletter  -->
+    <section class="newsletter">
+      <div class="newsletter-info">
+        <h1>Newsletter</h1>
+        <p>Sign now</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="text" placeholder="Your e-mail">
+        <button type="submit">Sign</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>Flexblog nigga</p>
+    </footer>
+  </body>
+</html>
